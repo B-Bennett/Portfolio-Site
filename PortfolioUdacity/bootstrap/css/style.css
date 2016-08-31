@@ -1,0 +1,176 @@
+
+img, embed, object, video {
+  max-width: 100%;
+}
+body {
+  font-family: 'Lato', sans-serif;
+  color: #2d3c49;
+  font-weight: 300;
+}
+
+.rule {
+  border-top: 5px solid #7d97ad;
+  margin-left: 5px;
+}
+
+.udacity-logo {
+  margin-top: 10px;
+  width: 48px;
+}
+
+.name-title {
+  margin-top: -5px;
+  margin-right: 10px;
+}
+
+.name-title h1 {
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.name-title h4 {
+  font-size: 9px;
+}
+
+.main-pic img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 90px;
+  width: 100%;
+}
+
+.featured-work-title h2 {
+  font-size: 20px;
+}
+
+.featured-work {
+  text-align: center;
+  font-size: 10px;
+}
+
+.featured-work p {
+  color: #2d3c49;
+}
+
+.featured-work h3 {
+  font-size: 24px;
+}
+
+.featured-work img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 100px;
+  width: 200px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+.udacity-logo img {
+  margin-top: 10px;
+  size: 90px;
+}
+.name-title {
+  margin-top: -5px;
+  margin-right: 10px;
+}
+
+.name-title h1 {
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.name-title h4 {
+  font-size: 14px;
+}
+
+.main-pic img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px;
+  width: 90%;
+}
+
+.featured-work-title h2 {
+  font-size: 32px;
+}
+
+.featured-work {
+  text-align: center;
+  font-size: 10px;
+}
+
+.featured-work p {
+  color: #000000;
+}
+
+.featured-work h3 {
+  font-size: 24px;
+}
+
+.featured-work img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+}
+
+@media (min-width: 992px) {
+
+.udacity-logo img {
+  margin-top: 10px;
+  width: 250px;
+}
+.name-title {
+  margin-top: -5px;
+  margin-right: 10px;
+}
+
+.name-title h1 {
+  font-size: 50px;
+  font-weight: 100;
+}
+
+.name-title h4 {
+  font-size: 20px;
+}
+
+.main-pic img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 250px;
+  width: 90%;
+}
+
+.featured-work-title h2 {
+  font-size: 32px;
+  padding-left: 30px;
+}
+
+.featured-work {
+  text-align: center;
+  font-size: 15px;
+}
+
+.featured-work p {
+  color: #000000;
+}
+
+.featured-work h3 {
+  font-size: 30px;
+  color: #000000;
+}
+
+.featured-work img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+}
+}
